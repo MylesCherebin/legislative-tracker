@@ -1,0 +1,14 @@
+sources:
+  house:
+    base_url: "https://house.mi.gov"
+    listing_url: "/VideoArchive"
+    mp4_base: "/ArchiveVideoFiles/"
+      
+
+  senate: 
+    vod_slug: "misenate"
+    config_api: "https://837sc3bew0.execute-api.us-west-2.amazonaws.com/misenate"
+    recent_api: "https://2kbyogxrg4.execute-api.us-west-2.amazonaws.com/{user_id}/home/recent"
+    media_api: "https://imd0mxanj2.execute-api.us-west-2.amazonaws.com/upload/get"
+    captions_api: "https://imd0mxanj2.execute-api.us-west-2.amazonaws.com/upload/get-captions"
+    discovery_page: "recent"   # matches ?page=RECENT
